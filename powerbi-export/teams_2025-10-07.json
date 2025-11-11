@@ -1,0 +1,30 @@
+[
+  {
+    "TeamId": "2289d9ac-7b95-4e1e-b463-712c253f268a",
+    "TeamName": "Kijani Supplies PEV",
+    "TeamKey": "KIJ",
+    "TeamDescription": "",
+    "TeamColor": "#789c00"
+  },
+  {
+    "TeamId": "bfa1e5d1-fd52-44bd-bdb0-77eb04cdcbeb",
+    "TeamName": "Swoop Africa",
+    "TeamKey": "SWO",
+    "TeamDescription": "",
+    "TeamColor": "#ac8d00"
+  },
+  {
+    "TeamId": "11784812-529a-41a6-8454-4f90b8e5162a",
+    "TeamName": "Join Africa",
+    "TeamKey": "JOI",
+    "TeamDescription": "",
+    "TeamColor": "#5d85ff"
+  },
+  {
+    "TeamId": "b4a3616b-ce02-49eb-bb7d-6fe195ef2fd0",
+    "TeamName": "Zafari",
+    "TeamKey": "ZAF",
+    "TeamDescription": "",
+    "TeamColor": "#25a700"
+  }
+]

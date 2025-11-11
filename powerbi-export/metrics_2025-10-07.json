@@ -1,0 +1,19 @@
+[
+  {
+    "ExportDate": "2025-10-07",
+    "ExportTimestamp": "2025-10-07T08:40:05.556Z",
+    "TotalProjects": 34,
+    "ActiveProjects": 27,
+    "CompletedProjects": 7,
+    "CanceledProjects": 0,
+    "TotalIssues": 250,
+    "CompletedIssues": 49,
+    "InProgressIssues": 66,
+    "TodoIssues": 21,
+    "CanceledIssues": 10,
+    "TotalTeams": 4,
+    "AverageProjectProgress": 46,
+    "TotalEstimatePoints": 184,
+    "CompletedEstimatePoints": 8
+  }
+]

@@ -1,0 +1,40 @@
+name: linear-reporting
+region: fra
+services:
+  - name: web
+    github:
+      repo: yourusername/linear-reporting
+      branch: main
+      deploy_on_push: true
+    build_command: npm install && cd client && npm install && npm run build && cd ..
+    run_command: node server.js
+    environment_slug: node-js
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    http_port: 5001
+    routes:
+      - path: /
+    envs:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "5001"
+      - key: LINEAR_API_KEY
+        scope: RUN_TIME
+        type: SECRET
+  - name: scheduler
+    github:
+      repo: yourusername/linear-reporting
+      branch: main
+      deploy_on_push: true
+    build_command: npm install
+    run_command: node scheduler-periodic.js
+    environment_slug: node-js
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    envs:
+      - key: NODE_ENV
+        value: production
+      - key: LINEAR_API_KEY
+        scope: RUN_TIME
+        type: SECRET
