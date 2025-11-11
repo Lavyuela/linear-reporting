@@ -3,7 +3,7 @@ region: fra
 services:
   - name: web
     github:
-      repo: yourusername/linear-reporting
+      repo: Lavyuela/linear-reporting
       branch: main
       deploy_on_push: true
     build_command: npm install && cd client && npm install && npm run build && cd ..
@@ -22,9 +22,11 @@ services:
       - key: LINEAR_API_KEY
         scope: RUN_TIME
         type: SECRET
+
+workers:
   - name: scheduler
     github:
-      repo: yourusername/linear-reporting
+      repo: Lavyuela/linear-reporting
       branch: main
       deploy_on_push: true
     build_command: npm install
